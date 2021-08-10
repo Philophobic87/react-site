@@ -1,13 +1,13 @@
 .navbar {
-    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    background-color: transparent;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
-    z-index: 999;
+    /* z-index: 999; */
   }
   
   .navbar-container {
@@ -30,11 +30,11 @@
     align-items: center;
   }
   
-  /* .logo {
+  .logo {
     width: 80px;
     height: 80px;
     color: #fff;
-  } */
+  }
 
   .fa-typo3 {
     margin-left: 0.5rem;

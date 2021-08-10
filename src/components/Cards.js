@@ -5,41 +5,40 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these EPIC Destinations!</h1>
+            <h1>Check out what's new at Philophobia Publishing Inc.!</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-9.jpg"
-                        text="Explore the hidden waterfall deep inside the Amazon Jungle" 
-                        label="Adventure"
-                        path="/services"
-                        />
-                        <CardItem 
-                        src="images/img-2.jpg"
-                        text="Travel through the islands of Bali in a Private Cruise" 
-                        label="Luxury"
+                        src="images/P1050927.jpg"
+                        text="Check out the Philophobic Trailer Here!" 
+                        label="Trailer"
                         path="/services"
                         />
                     </ul>
                     <ul className="cards__items">
                         <CardItem 
-                        src="images/img-3.jpg"
-                        text="Set Sail in the Atlantic Ocean visiting Uncharted Waters" 
-                        label="Mystery"
+                        src="images/IMG_0322.jpg"
+                        text="Check out some fire new music our Philo-Pub Playlist!" 
+                        label="Music"
                         path="/services"
                         />
+                    </ul>
+
+                    <ul className="cards__items">
                         <CardItem 
-                        src="images/img-4.jpg"
-                        text="Experience Football on Top of the Himilayan Mountains" 
-                        label="Adventure"
+                        src="images/P1020866.jpg"
+                        text="Just my thoughts..." 
+                        label="Blog"
+                        path="/services"
+                        /> 
+                    </ul>
+                    <ul className="cards__items">
+                        <CardItem 
+                        src="images/P1030691.jpg"
+                        text="Buy some Philophobia Publishing merch!" 
+                        label="Shop"
                         path="/products"
-                        />
-                        <CardItem 
-                        src="images/img-8.jpg"
-                        text="Ride through the Sahara Desert on a guided camel tour" 
-                        label="Adrenaline"
-                        path="/sign-up"
                         />
                     </ul>
                 </div>
